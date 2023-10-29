@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+    <style>
+        .box {
+            border: 1px solid black; 
+            padding: 10px; 
+            width: 200px; 
+            height: 100px; 
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #26be12;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .resume {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 20px;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .photo {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 50%; 
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+   
+    
+    <div class="header">
+        <h1>Ravikiran S J</h1>
+        <p>Web Developer</p>
+    </div>
+
+    <div class="resume clearfix">
+        <div class="column">
+            <div class="photo">
+                <img src="C:\Users\Asus\Pictures\Camera Roll\WIN_20230912_13_18_24_Pro.jpg" alt="Your Photo">
+            </div>
+        </div>
+
+        <div class="column">
+            <h2>About Me</h2>
+            <p>A highly skilled web developer with expertise in HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="column">
+            <h2>Education</h2>
+            <ul>
+                <li>Master of computer application</li>
+                <li>Bachelor of computer application</li>
+                <li>pre university</li>
+                <li>10th cbse</li>
+            </ul>
+        </div>
+    </div>
+
+    
+        <div class="box">
+            <h2>Hobbies</h2>
+            <p><li>outdoor games</li>
+                <li>swimming</li>
+                <li>watching movies</li>
+                
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
